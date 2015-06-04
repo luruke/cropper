@@ -55,7 +55,7 @@
       },
 
       getImg = function (url) {
-        return '<img src="' + url + '">';
+        return '<img crossorigin="Anonymous" src="' + url + '">';
       },
 
       getRotate = function (degree) {
